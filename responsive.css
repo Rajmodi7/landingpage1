@@ -1,0 +1,267 @@
+@media (max-width: 1300px) {
+    
+    .home-title{
+        font-size: 30px;
+    }
+    
+    .carousel-card{
+        width: 99%;
+    }
+
+    .about-title{
+        font-size: 30px;
+    }
+
+    .service-title{
+        font-size: 30px;
+    }
+
+    .te-title{
+        font-size: 30px;
+    }
+
+    .te-subtitle{
+        font-size: 18px;
+    }
+
+    .move-div{
+        transform: translateY(0);
+        gap: 0px;
+    }
+
+    .price-title{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .tours-parent{
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 20px;
+        
+    }
+    .second-tours{
+        padding-top: 20px;
+        justify-content: center;
+        transform: translateY(0);
+        align-items: center;
+        gap: 30px;
+        margin: 0 !important;
+        
+        
+    }
+
+    .second-tours .tour-card{
+        width: 320px !important;  
+    }
+    .footer-newsletter{
+        margin: 0;
+    }
+
+    .footer-address{
+        margin: 0;  
+    }
+  
+  }
+  
+  @media (max-width: 1230px) {
+    
+
+  }
+  
+  @media (max-width: 1070px) {
+   
+
+  }
+  
+  @media (max-width: 991px) {
+
+    .menu-navbar-nav{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .menu-navbar-nav .nav-item:last-child{
+        margin-bottom: 10px;
+    }
+
+    .nav-item .nav-link.active::after {
+        content: "";
+        position: absolute;
+        bottom: -0.5px;
+        left: 15px;
+        align-self: center;
+        width: 50%;
+        border-bottom: 2px solid var(--primary-pink);
+      }
+    
+    .home-title{
+        font-size: 25px;
+    }
+    
+    .home-div{
+        transform: scale(0.99);
+        padding: 5px;
+    }
+    .icons-div{
+        flex-direction: column;
+    }
+
+
+
+    .location:first-child::after{
+        display: none;
+    }
+
+    .home-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homee-parent{
+        flex-direction: column-reverse;
+    }
+
+    .home-text-div{
+        margin-top: 10px;
+        text-align: start;
+    }
+
+    .about-title{
+        font-size: 25px;
+    }
+
+    .service-title{
+        font-size: 25px;
+    }
+
+    .te-title{
+        font-size: 25px;
+    }
+
+    .price-title{
+        font-size: 25px;
+    }
+    .price-text-parent{
+        text-align: center;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 50px;        
+    }
+
+    .footer-address{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-address p{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer-newsletter{
+        text-align: center;
+    }
+
+
+    
+  }
+  
+  @media (max-width: 767px) {
+
+    .home-title{
+        font-size: 20px;
+    }    
+
+    .icons-div{
+        gap: 5px;
+    }
+
+    .about-title{
+        font-size: 20px;
+    }
+    .about-text{
+        font-size: 14px;
+    }
+    .about-inner span{
+        width: 75%;
+    }
+    
+    .service-title{
+        font-size: 20px;
+    }
+    
+    .service-text-parent{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text-about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-card{
+        width: 80%;
+    }
+
+    .te-title{
+        font-size: 20px;
+    }
+
+    .price-title{
+        font-size: 20px;
+    }
+    .tour-card{
+        width: auto;
+    }
+
+    .tours-parent{
+        flex-direction: column;
+    }
+
+    .second-tours{
+        flex-direction: column;
+    }
+
+    .footer-about{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .about-item{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-newsletter{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;        
+    }
+
+  
+  }
+  
+
+
+
